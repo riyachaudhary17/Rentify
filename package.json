@@ -1,0 +1,22 @@
+{
+  "name": "riya",
+  "version": "1.0.0",
+  "description": "its an amazing package",
+  "main": "appp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "riya"
+  ],
+  "author": "riyaa",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^18.0.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemailer": "^6.9.13",
+    "path": "^0.12.7"
+  }
+}

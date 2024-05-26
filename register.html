@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="post_property.html">Post Property</a>
+        <a href="view_properties.html">View Properties</a>
+    </nav>
+    <form id="registerForm">
+        <input type="text" name="first_name" placeholder="First Name" required>
+        <input type="text" name="last_name" placeholder="Last Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+        <select name="user_type" required>
+            <option value="seller">Seller</option>
+            <option value="buyer">Buyer</option>
+        </select>
+        <input type="password" name="password" placeholder="Password" minlength="6" required>
+        <button type="submit">Register</button>
+    </form>
+    <script src="app.js"></script>
+    <script src="appp.js"></script>
+</body>
+</html>

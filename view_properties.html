@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Properties</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="post_property.html">Post Property</a>
+        <a href="view_properties.html">View Properties</a>
+    </nav>
+    <form id="filters">
+        <input type="text" name="place" placeholder="Place">
+        <input type="text" name="area" placeholder="Area (sq ft)">
+        <input type="number" name="bedrooms" placeholder="Number of Bedrooms" min="1">
+        <input type="number" name="bathrooms" placeholder="Number of Bathrooms" min="1">
+        <input type="number" name="price_min" placeholder="Min Price" min="1">
+        <input type="number" name="price_max" placeholder="Max Price" min="1">
+        <button type="submit">Filter</button>
+    </form>
+    <div id="properties"></div>
+    <div id="pagination"></div>
+    <script src="app.js"></script>
+    <script src="appp.js"></script>
+</body>
+</html>

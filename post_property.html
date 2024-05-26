@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Property</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="post_property.html">Post Property</a>
+        <a href="view_properties.html">View Properties</a>
+    </nav>
+    <form id="propertyForm">
+        <input type="text" name="place" placeholder="Place" required>
+        <input type="text" name="area" placeholder="Area (sq ft)" required>
+        <input type="number" name="bedrooms" placeholder="Number of Bedrooms" min="1" required>
+        <input type="number" name="bathrooms" placeholder="Number of Bathrooms" min="1" required>
+        <input type="number" name="price" placeholder="Price" min="1" required>
+        <select name="property_type" required>
+            <option value="apartment">Apartment</option>
+            <option value="house">House</option>
+        </select>
+        <textarea name="additional_details" placeholder="Additional Details"></textarea>
+        <button type="submit">Post Property</button>
+    </form>
+    <script src="app.js"></script>
+    <script src="appp.js"></script>
+</body>
+</html>
